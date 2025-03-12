@@ -1,0 +1,12 @@
+#ifndef SAMPLECLIONPROJECT2_MYAPPLICATIONGUI_H
+#define SAMPLECLIONPROJECT2_MYAPPLICATIONGUI_H
+
+
+class MyApplicationGui {
+public:
+void initGui();
+private:
+};
+
+
+#endif //SAMPLECLIONPROJECT2_MYAPPLICATIONGUI_H
