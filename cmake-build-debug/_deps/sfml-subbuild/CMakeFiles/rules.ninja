@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\Program Files\JetBrains\CLion2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\CLionProjects\deArchievator\cmake-build-debug\_deps\sfml-subbuild -BD:\CLionProjects\deArchievator\cmake-build-debug\_deps\sfml-subbuild
+  command = "D:\Program Files\JetBrains\CLion2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\CLionProjects\project\cmake-build-debug\_deps\sfml-subbuild -BD:\CLionProjects\project\cmake-build-debug\_deps\sfml-subbuild
   description = Re-running CMake...
   generator = 1
 

@@ -1,21 +1,12 @@
 #include <SFML/Graphics.hpp>
-
+#include <iostream>
+#include "../headers/MyApplicationGui.h"
+#include "../headers/DispatcherHat.h"
+#include <Windows.h>
 int main()
 {
-    auto window = sf::RenderWindow{ { 1920u, 1080u }, "CMake SFML Project" };
-    window.setFramerateLimit(144);
-
-    while (window.isOpen())
-    {
-        for (auto event = sf::Event{}; window.pollEvent(event);)
-        {
-            if (event.type == sf::Event::Closed)
-            {
-                window.close();
-            }
-        }
-
-        window.clear();
-        window.display();
-    }
+    SetConsoleOutputCP(65001);
+    MyApplicationGui myApplicationGui = *new MyApplicationGui();
+    myApplicationGui.initGui();
+    return 0;
 }

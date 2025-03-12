@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-src"
-  "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-build"
-  "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix"
-  "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
-  "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
-  "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src"
-  "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-src"
+  "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-build"
+  "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix"
+  "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
+  "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src"
+  "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

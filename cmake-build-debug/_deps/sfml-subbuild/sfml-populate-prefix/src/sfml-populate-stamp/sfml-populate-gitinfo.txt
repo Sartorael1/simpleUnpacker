@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=D:/Program Files/JetBrains/CLion2024.1.4/bin/cmake/win/x64/bin/cmake.exe;-P;D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
-source_dir=D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-src
-work_dir=D:/CLionProjects/deArchievator/cmake-build-debug/_deps
+command=D:/Program Files/JetBrains/CLion2024.1.4/bin/cmake/win/x64/bin/cmake.exe;-P;D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+source_dir=D:/CLionProjects/project/cmake-build-debug/_deps/sfml-src
+work_dir=D:/CLionProjects/project/cmake-build-debug/_deps
 repository=https://github.com/SFML/SFML.git
 remote=origin
 init_submodules=TRUE

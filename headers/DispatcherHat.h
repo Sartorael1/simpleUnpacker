@@ -6,7 +6,7 @@
 
 class DispatcherHat {
 public:
-    static void distributor(const std::string& archivePath, const std::string& extractPath);
+    static std::string distributor(std::string &libraryPath ,const std::string& archivePath, const std::string& extractPath);
 
 private:
     static std::string getFileExtension(const std::string& filePath);

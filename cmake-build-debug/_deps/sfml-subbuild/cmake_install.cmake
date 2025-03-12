@@ -1,4 +1,4 @@
-# Install script for directory: D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild
+# Install script for directory: D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CLionProjects/deArchievator/cmake-build-debug/_deps/sfml-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CLionProjects/project/cmake-build-debug/_deps/sfml-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
