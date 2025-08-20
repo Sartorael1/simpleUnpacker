@@ -1,2 +1,2 @@
-# Sinmple ubpacker 7z with gui
+# Sinmple unpacker 7z with gui
 
